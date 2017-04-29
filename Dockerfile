@@ -11,7 +11,8 @@ RUN curl -sLO \
     rm Miniconda3-latest-Linux-x86_64.sh
 ENV PATH=/opt/miniconda/bin:$PATH
 
-RUN conda install numpy matplotlib pandas jupyter notebook
+RUN conda install numpy matplotlib pandas jupyter notebook bokeh scipy h5py
+RUN pip install tensorflow TFLearn
 
 WORKDIR /usr/src
 ADD . /usr/src
