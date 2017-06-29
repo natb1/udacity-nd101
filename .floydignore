@@ -1,0 +1,24 @@
+
+# Directories to ignore when uploading code to floyd
+# Do not add a trailing slash for directories
+
+.git
+.eggs
+eggs
+lib
+lib64
+parts
+sdist
+var
+image-classification/cifar-10-python.tar.gz
+image-classification/preprocess_batch_1.p
+image-classification/preprocess_batch_2.p
+image-classification/preprocess_batch_3.p
+image-classification/preprocess_batch_4.p
+image-classification/preprocess_batch_5.p
+image-classification/preprocess_validation.p
+image-classification/preprocess_test.p
+image-classification/cifar-10-batches-py
+intro-to-tensorflow/notMNIST.pickle
+intro-to-tensorflow/notMNIST_test.zip
+intro-to-tensorflow/notMNIST_train.zip
