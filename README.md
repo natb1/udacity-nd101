@@ -8,5 +8,8 @@ docker run --rm -v $PWD:/usr/src -v $HOME/.floydconfig:/root/.floydconfig \
     -it nd
 ```
 ```
-docker exec -it nd tensorboard --port 8889 --logdir logs
+docker exec -it udnd101 tensorboard --port 8889 --logdir logs
+```
+```
+docker exec -it udnd101 floyd run --mode jupyter --gpu
 ```
